@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IP Analyse</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+<header>
+  <img src="../Assets/IpAnalysLogo1.png" alt="IP Analyse Logo">
+  <h3>IpRobat</h3>
+</header>
+<main>
+  <h1>Check Your Network Details</h1>
+  <form id="networkForm">
+    <div id="form-ip">
+      <div class="form-group">
+        <label for="ipAddress" id="ipAddressLabel">IP Address:</label>
+        <input type="text" id="ipAddress" name="ipAddress" placeholder="Enter Device's IP Address">
+        <button id="subBtn">submit</button>
+      </div>
+    </div>
+
+    <div id="ip-result"></div>
+
+    <p>The IP Analyse project provides a comprehensive analysis of your network details. Users can enter an IP address and receive essential information such as subnet mask, default gateway, DNS servers, and more. The "Download Report" button allows users to generate and save a detailed report of their network configuration for further analysis and record-keeping.</p>
+
+    <button>Download Report</button>
+  </form>
+</main>
+<script src="../js/main.js"></script>
+</body>
+</html>
