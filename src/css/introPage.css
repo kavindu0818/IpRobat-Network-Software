@@ -70,10 +70,10 @@ main p {
 
 main button {
     position: absolute;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 0.5rem 1rem;
-    border: none;
+    border: 2px solid #8CC5F9;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
