@@ -120,7 +120,7 @@ function displayResults(details) {
     const resultDiv = document.getElementById('ip-result');
     console.log(details); // Debugging log
     resultDiv.innerHTML = `
-        <h2>Network Details:</h2>
+<!--        <h2>Network Details:</h2>-->
         <p><strong>IP Address:</strong> ${details.ipAddress}</p>
         <p><strong>IP Class:</strong> ${details.ipClass}</p>
         <p><strong>Subnet Mask:</strong> ${details.subnetMask}</p>
